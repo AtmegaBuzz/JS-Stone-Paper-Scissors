@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+}
+
+.box{
+    text-align: center;
+    text-decoration: underline solid ;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+
+.user button:hover{
+    background-color: rgb(101, 101, 235);
+}
+
+
+.computer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.answer-elem{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#user{
+    border: 10px solid rgb(108, 108, 233);
+}
+
+#computer{
+    border: 10px solid rgb(233, 40, 6);
+}
