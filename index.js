@@ -37,8 +37,9 @@ function computer_choice(){
 function answer(computer_pick,user_pick){
     const answer = document.querySelector("#answer");
 
+     // since the container is in flex so to get user image on left ive done this
     const user_img = document.querySelector("#user");
-    user_img.src = `images/${user_pick}.jpg`;
+    user_img.src = `${user_pick}.jpg`;
     
 
     
@@ -56,9 +57,10 @@ function answer(computer_pick,user_pick){
         answer.innerText = "Draw";
         
     }
-
+    
+    // since the container is in flex so to get computer image on right ive done this
     const computer_img = document.querySelector("#computer");
-    computer_img.src = `images/${computer_pick}.jpg`;
+    computer_img.src = `${computer_pick}.jpg`;
     
 
     
